@@ -10,6 +10,7 @@ This file maps syllabus topics to example files present in this repository.
   - `Basics/OperatorsAndExpressions.cpp`
   - `Basics/ArithmeticRelationalLogical.cpp`
   - `Basics/AssignmentAndIncDec.cpp`
+
   ```markdown
   # C++ Syllabus Index
 
@@ -89,5 +90,4 @@ This file maps syllabus topics to example files present in this repository.
     - `advanced-concepts/ThreadPool_Simple.cpp`
 
   If you'd like a different layout or a one-page HTML index, tell me and I will generate it.
- 
-  ``` 
+  ```

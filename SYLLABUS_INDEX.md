@@ -10,69 +10,84 @@ This file maps syllabus topics to example files present in this repository.
   - `Basics/OperatorsAndExpressions.cpp`
   - `Basics/ArithmeticRelationalLogical.cpp`
   - `Basics/AssignmentAndIncDec.cpp`
-  - `Basics/BitwiseOperators.cpp`
-  - `Basics/ControlStructuresExamples.cpp`
-  - `Basics/SwitchAndJumps.cpp`
-  - `Basics/TypeConversionsAndPrecedence.cpp`
-  - `Basics/IdentifiersAndKeywords.cpp`
-  - `Basics/HistoryAndCvsC.cpp`
-  - `Basics/NamespacesAndPreprocessor.cpp`
+  ```markdown
+  # C++ Syllabus Index
 
-- **Functions**:
+  This file maps syllabus topics to example files present in this repository.
 
-  - `Functions/FunctionsExamples.cpp`
-  - `Functions/FunctionPrototypesOverloading.cpp`
-  - `Functions/LambdaInlineRecursion.cpp`
+  - **Basics**:
 
-- **Compound Data Types**:
+    - `basics/FirstProgram.cpp`
+    - `basics/DataTypesAndVariables.cpp`
+    - `basics/IOExamples.cpp`
+    - `basics/OperatorsAndExpressions.cpp`
+    - `basics/ArithmeticRelationalLogical.cpp`
+    - `basics/AssignmentAndIncDec.cpp`
+    - `basics/BitwiseOperators.cpp`
+    - `basics/ControlStructuresExamples.cpp`
+    - `basics/SwitchAndJumps.cpp`
+    - `basics/TypeConversionsAndPrecedence.cpp`
+    - `basics/IdentifiersAndKeywords.cpp`
+    - `basics/HistoryAndCvsC.cpp`
+    - `basics/NamespacesAndPreprocessor.cpp`
 
-  - `Compound Data Types/ArraysAndStrings.cpp`
-  - `Compound Data Types/MultiDimArrays.cpp`
-  - `Compound Data Types/StructsUnionsEnums.cpp`
-  - `Compound Data Types/ReferencesExample.cpp`
+  - **Functions**:
 
-- **Dynamic Memory Management**:
+    - `functions/FunctionsExamples.cpp`
+    - `functions/FunctionPrototypesOverloading.cpp`
+    - `functions/LambdaInlineRecursion.cpp`
 
-  - `Dynamic Memory Management/PointersAndDynamicMemory.cpp`
-  - `Dynamic Memory Management/NewDeleteAndLeak.cpp`
+  - **Compound Data Types**:
 
-- **Object Oriented Programming**:
+    - `compound-data-types/ArraysAndStrings.cpp`
+    - `compound-data-types/MultiDimArrays.cpp`
+    - `compound-data-types/StructsUnionsEnums.cpp`
+    - `compound-data-types/ReferencesExample.cpp`
 
-  - `Object Oriented Programming/ClassAndObject.cpp`
-  - `Object Oriented Programming/ConstructorsDestructors.cpp`
-  - `Object Oriented Programming/InheritancePolymorphism.cpp`
-  - `Object Oriented Programming/OperatorOverloading.cpp`
-  - `Object Oriented Programming/AbstractVirtualExamples.cpp`
-  - `Object Oriented Programming/TemplatesExample.cpp`
+  - **Dynamic Memory Management**:
 
-- **Standard Template Library (STL)**:
+    - `dynamic-memory-management/PointersAndDynamicMemory.cpp`
+    - `dynamic-memory-management/NewDeleteAndLeak.cpp`
 
-  - `Standard Template Library (STL)/STLExamples.cpp`
-  - `Standard Template Library (STL)/VectorListExamples.cpp`
-  - `Standard Template Library (STL)/ContainersExamples.cpp`
-  - `Standard Template Library (STL)/Unordered_Multiset_Multimap.cpp`
-  - `Standard Template Library (STL)/IteratorsExamples.cpp`
-  - `Standard Template Library (STL)/IteratorCategories.cpp`
-  - `Standard Template Library (STL)/AlgorithmsExamples.cpp`
-  - `Standard Template Library (STL)/AlgorithmsMore.cpp`
+  - **Object Oriented Programming**:
 
-- **Exception Handling**:
+    - `object-oriented-programming/ClassAndObject.cpp`
+    - `object-oriented-programming/ConstructorsDestructors.cpp`
+    - `object-oriented-programming/InheritancePolymorphism.cpp`
+    - `object-oriented-programming/OperatorOverloading.cpp`
+    - `object-oriented-programming/AbstractVirtualExamples.cpp`
+    - `object-oriented-programming/TemplatesExample.cpp`
 
-  - `Exception Handling/ExceptionsExample.cpp`
-  - `Exception Handling/UserDefinedException.cpp`
-  - `Exception Handling/ExceptionSafety_RAII.cpp`
-  - `Exception Handling/RAII_CopyMoveSwap.cpp`
+  - **Standard Template Library (STL)**:
 
-- **File Handling**:
+    - `stl/STLExamples.cpp`
+    - `stl/VectorListExamples.cpp`
+    - `stl/ContainersExamples.cpp`
+    - `stl/Unordered_Multiset_Multimap.cpp`
+    - `stl/IteratorsExamples.cpp`
+    - `stl/IteratorCategories.cpp`
+    - `stl/AlgorithmsExamples.cpp`
+    - `stl/AlgorithmsMore.cpp`
 
-  - `File Handling/FileIOExamples.cpp`
-  - `File Handling/SeekTellExample.cpp`
-  - `File Handling/binary_io_structs.cpp`
+  - **Exception Handling**:
 
-- **Advanced Concepts**:
-  - `Advanced Concepts/MoveSemantics_RvalueReferences.cpp`
-  - `Advanced Concepts/SmartPointersAndThreads.cpp`
-  - `Advanced Concepts/Threading_Mutex_CondVar.cpp`
-  - `Advanced Concepts/ThreadPool_Simple.cpp`
+    - `exception-handling/ExceptionsExample.cpp`
+    - `exception-handling/UserDefinedException.cpp`
+    - `exception-handling/ExceptionSafety_RAII.cpp`
+    - `exception-handling/RAII_CopyMoveSwap.cpp`
 
-If you'd like a different layout or a one-page HTML index, tell me and I will generate it.
+  - **File Handling**:
+
+    - `file-handling/FileIOExamples.cpp`
+    - `file-handling/SeekTellExample.cpp`
+    - `file-handling/binary_io_structs.cpp`
+
+  - **Advanced Concepts**:
+    - `advanced-concepts/MoveSemantics_RvalueReferences.cpp`
+    - `advanced-concepts/SmartPointersAndThreads.cpp`
+    - `advanced-concepts/Threading_Mutex_CondVar.cpp`
+    - `advanced-concepts/ThreadPool_Simple.cpp`
+
+  If you'd like a different layout or a one-page HTML index, tell me and I will generate it.
+ 
+  ``` 

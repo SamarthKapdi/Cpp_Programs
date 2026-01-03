@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main, "**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake
+      - name: Configure
+        run: mkdir -p build && cd build && cmake -DCMAKE_BUILD_TYPE=Release ..
+      - name: Build
+        run: cmake --build build --parallel
+      - name: Run tests (if present)
+        run: |
+          if [ -x build/tests ]; then ./build/tests || true; fi

@@ -26,11 +26,13 @@ cmake --build . --config Release --parallel
 ```
 
 Presentation tips for candidates:
+
 - Start with `SYLLABUS_INDEX.md` to orient the interviewer, then open 2–3 relevant examples (one core language feature, one STL example, one concurrency/RAII example).
 - Explain trade-offs and safety considerations (move vs copy, RAII, exception-safety, memory ordering for atomics).
 - Show how to build locally using the `Modern C++ (C++20+)` CMake file to demonstrate reproducible builds.
 
 Suggested next polish (optional):
+
 - Add a root `CMakeLists.txt` that builds examples across folders.
 - Add a GitHub Actions workflow to run a small CI build and sanitizer tests (recommended for production readiness).
 
